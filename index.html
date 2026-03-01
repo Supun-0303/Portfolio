@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Professional personal portfolio website" />
+  <title>Supun Viduranga | Professional Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Loading Animation -->
+  <div id="loader" class="loader-wrapper" aria-hidden="true">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Header / Sticky Navigation -->
+  <header id="header" class="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">Supun<span>Viduranga</span></a>
+
+      <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <ul id="nav-links" class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle light and dark theme">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home Section -->
+    <section id="home" class="section hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="section-tag">Professional Portfolio</p>
+          <h1>Hi, I'm <span>Supun Viduranga</span></h1>
+          <h2 class="typing-line">I am a <span id="typing-text"></span></h2>
+          <p>
+            I am a passionate software professional focused on creating high-quality web applications and intuitive user experiences.
+            I enjoy transforming ideas into practical digital solutions that deliver measurable value.
+          </p>
+          <p>
+            With a strong foundation in modern technologies and problem-solving, I continuously improve my skills to stay updated
+            with industry best practices. I believe in clean code, clear communication, and collaborative development.
+          </p>
+          <p>
+            My goal is to contribute to impactful projects, build scalable systems, and support organizations in achieving their
+            business objectives through technology.
+          </p>
+          <a href="C:\Degree\My portfolio\mycv.pdf" class="btn" download>Download CV</a>
+        </div>
+        <div class="hero-image">
+          <img src="C:\Degree\My portfolio\my photo.jpeg" alt="Professional profile of Supun Viduranga" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-card">
+            <h3>Personal Information</h3>
+            <ul class="info-list">
+              <li><strong>Full Name:</strong> Supun Viduranga</li>
+              <li><strong>Date of Birth:</strong> 03 March 2003</li>
+              <li><strong>Nationality:</strong> Sri Lankan</li>
+              <li><strong>Location:</strong> Colombo, Sri Lanka</li>
+            </ul>
+          </div>
+
+          <div class="about-card">
+            <h3>Career Objective</h3>
+            <p>
+              To work in a dynamic and growth-oriented environment where I can apply my technical expertise, creative thinking,
+              and teamwork to deliver innovative software products while continuously learning and growing professionally.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <h3>Education</h3>
+            <p><strong>Degree:</strong> BT(HONS)Information and Communication Technology</p>
+            <p><strong>University:</strong> University of Sir John Kotelawala Defense University</p>
+            <p><strong>Year:</strong> 2021</p>
+          </div>
+
+          <div class="about-card">
+            <h3>Technical Skills</h3>
+            <div class="skill">
+              <div class="skill-label"><span>HTML / CSS</span><span>95%</span></div>
+              <div class="progress"><span style="width: 95%"></span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-label"><span>JavaScript</span><span>90%</span></div>
+              <div class="progress"><span style="width: 90%"></span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-label"><span>React</span><span>85%</span></div>
+              <div class="progress"><span style="width: 85%"></span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-label"><span>Python</span><span>88%</span></div>
+              <div class="progress"><span style="width: 88%"></span></div>
+            </div>
+          </div>
+
+          <div class="about-card">
+            <h3>Soft Skills</h3>
+            <div class="skill">
+              <div class="skill-label"><span>Communication</span><span>92%</span></div>
+              <div class="progress"><span style="width: 92%"></span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-label"><span>Leadership</span><span>86%</span></div>
+              <div class="progress"><span style="width: 86%"></span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-label"><span>Teamwork</span><span>94%</span></div>
+              <div class="progress"><span style="width: 94%"></span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-label"><span>Problem Solving</span><span>90%</span></div>
+              <div class="progress"><span style="width: 90%"></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section alt-bg">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline">
+          <article class="timeline-card">
+            <h3>Senior Web Developer</h3>
+            <p class="meta">TechNova Solutions | Jan 2023 - Present</p>
+            <p>
+              Leading front-end architecture, building responsive applications, and mentoring junior developers. Improved page speed,
+              accessibility, and code maintainability across enterprise projects.
+            </p>
+          </article>
+
+          <article class="timeline-card">
+            <h3>Software Developer</h3>
+            <p class="meta">CodeCraft Labs | Jul 2021 - Dec 2022</p>
+            <p>
+              Developed full-stack modules, integrated REST APIs, and collaborated with designers to create seamless user interfaces.
+              Contributed to Agile sprints and continuous deployment pipelines.
+            </p>
+          </article>
+
+          <article class="timeline-card">
+            <h3>Software Engineering Intern</h3>
+            <p class="meta">InnoByte Technologies | Jan 2021 - Jun 2021</p>
+            <p>
+              Built internal dashboard features, fixed UI issues, and wrote reusable components that reduced development time.
+              Participated in code reviews and technical documentation.
+            </p>
+          </article>
+        </div>
+
+        <div class="projects-summary">
+          <h3>Projects Completed</h3>
+          <ul>
+            <li><strong>Hotel Web site:</strong> A group project for managing hotel bookings and reservations. <em>Tech:</em> Html, Css, JavaScript.</li>
+            <li><strong>Smart Home Management System:</strong> A system for controlling home devices remotely. <em>Tech:</em> C++, Blynk.</li>
+            <li><strong>Portfolio CMS:</strong> Dynamic content management system for personal websites. <em>Tech:</em> PHP, MySQL, Bootstrap.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+      <div class="container">
+        <h2 class="section-title">Services</h2>
+        <div class="services-grid">
+          <article class="service-card">
+            <i class="fa-solid fa-code"></i>
+            <h3>Web Development</h3>
+            <p>Building modern, fast, and responsive websites tailored to business and personal goals.</p>
+          </article>
+          <article class="service-card">
+            <i class="fa-solid fa-pen-ruler"></i>
+            <h3>UI/UX Design</h3>
+            <p>Designing intuitive interfaces that improve usability and deliver engaging user experiences.</p>
+          </article>
+          <article class="service-card">
+            <i class="fa-solid fa-laptop-code"></i>
+            <h3>Software Development</h3>
+            <p>Developing reliable software solutions with clean architecture and scalable implementation.</p>
+          </article>
+          <article class="service-card">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            <h3>Responsive Design</h3>
+            <p>Ensuring applications look and perform perfectly across desktop, tablet, and mobile devices.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio / Projects Section -->
+    <section id="portfolio" class="section alt-bg">
+      <div class="container">
+        <h2 class="section-title">Portfolio</h2>
+        <div class="portfolio-grid">
+          <article class="project-card">
+            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=500&fit=crop" alt="E-Commerce project" />
+            <div class="project-content">
+              <h3>Hotel Web site</h3>
+              <p>Managing hotel bookings and reservations</p>
+              <a class="btn-outline" href="https://github.com" target="_blank" rel="noopener noreferrer">View Project</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800&h=500&fit=crop" alt="Task manager project" />
+            <div class="project-content">
+              <h3>Smart Home Management System</h3>
+              <p>System for controlling home devices remotely with real-time monitoring and automation.</p>
+              <a class="btn-outline" href="https://github.com/Supun-0303/Smart-Home" target="_blank" rel="noopener noreferrer">View Project</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=500&fit=crop" alt="Portfolio CMS project" />
+            <div class="project-content">
+              <h3>Portfolio CMS</h3>
+              <p>Custom content management platform for maintaining portfolio websites efficiently.</p>
+              <a class="btn-outline" href="https://github.com" target="_blank" rel="noopener noreferrer">View Project</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-grid">
+          <form class="contact-form" id="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required />
+
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Subject" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+
+          <div class="contact-info">
+            <h3>Contact Details</h3>
+            <p><i class="fa-solid fa-phone"></i> +94 77 185 4770</p>
+            <p><i class="fa-solid fa-envelope"></i> supunviduranga0303@email.com</p>
+            <p><i class="fa-solid fa-location-dot"></i> Colombo, Sri Lanka</p>
+
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/supun-viduranga-77b455316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/Supun-0303" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.facebook.com/supun.viduranga.12/about/?fb_profile_edit_entry_point=%7B%22click_point%22%3A%22edit_profile_button%22%2C%22feature%22%3A%22profile_header%22%7D&id=100032222" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/supun_0303_/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Scroll To Top -->
+  <button id="scroll-top" class="scroll-top" aria-label="Scroll to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Floating AI Chatbot -->
+  <button id="chatbot-toggle" class="chatbot-toggle" aria-label="Open AI Chatbot">
+    <i class="fa-solid fa-robot"></i>
+  </button>
+
+  <section id="chatbot-box" class="chatbot-box" aria-label="AI Chatbot" aria-hidden="true">
+    <header class="chatbot-header">
+      <h3>AI Assistant</h3>
+      <button id="chatbot-close" aria-label="Close chatbot"><i class="fa-solid fa-xmark"></i></button>
+    </header>
+
+    <div id="chatbot-messages" class="chatbot-messages">
+      <div class="bot-message">Hello! Ask me about my skills, projects, or who I am.</div>
+    </div>
+
+    <form id="chatbot-form" class="chatbot-input-area">
+      <input type="text" id="chatbot-input" placeholder="Ask something..." required />
+      <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Supun Viduranga. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
